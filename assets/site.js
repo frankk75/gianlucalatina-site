@@ -10,7 +10,7 @@
    const data=await getJSON('data/gallery.json');
    const allItems=(data?.items||[]).filter(x=>x.active!==false);
    const featured=allItems.filter(x=>x.featured_home===true);
-   const items=featured.length?featured:allItems.slice(0,12);
+   const items=featured.length?featured:allItems;
    if(items.length){galleryRail.innerHTML=items.map(x=>`<figure class="work-slide"><img loading="lazy" src="${esc(x.image)}" alt="${esc(x.alt||x.title)}" decoding="async" width="1000" height="750"><figcaption><span class="work-category">${esc(x.category||'Lavoro')}</span>${esc(x.title)}<a class="photo-link" href="${esc(x.service_url||'#servizi')}">Scopri il servizio →</a></figcaption></figure>`).join('');}
   }
   const promoGrid=document.querySelector('[data-managed-promotions]');
