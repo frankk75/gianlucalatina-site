@@ -1,0 +1,8 @@
+V41 - Revisione distribuzione fotografie
+- Home: immagini di categoria con soggetto preservate.
+- Galleria Home: selezione più equilibrata tra servizi.
+- Autoclavi: eliminata la galleria duplicata; mantenute 3 foto reali distinte, inclusa la più recente.
+- Idraulica: galleria alleggerita e dedicata ai lavori idraulici, senza ripetere l'intera sequenza bagno.
+- Ristrutturazioni: fotografie ordinate come prima/durante/dopo, dalla demolizione al risultato finale.
+- Caldaie, climatizzazione e avvolgibili: gallerie dedicate preservate.
+- SEO, social, contatti, admin e dati promozioni preservati.
