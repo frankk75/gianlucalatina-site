@@ -1,0 +1,10 @@
+REVISIONE V14 — INTERFACCIA PREMIUM
+- Nuova gerarchia visiva e palette più professionale.
+- Header semi-trasparente con menu e CTA rifiniti.
+- Hero più editoriale e leggibile, mantenendo il tecnico in evidenza.
+- Nuova fascia credibilità sotto la Hero.
+- Card esigenze e servizi ridisegnate con maggiore profondità e fotografia protagonista.
+- Percorso “Contatto > Valutazione > Intervento” trasformato in sezione scura premium.
+- Gallerie, promozioni, marchi, Google, FAQ e contatti armonizzati.
+- Pagine servizio interne rese più coerenti, leggibili e interconnesse.
+- Ottimizzazioni specifiche smartphone/tablet mantenendo l’effetto visuale desktop-like.

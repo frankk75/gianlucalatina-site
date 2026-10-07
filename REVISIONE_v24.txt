@@ -1,0 +1,5 @@
+V24
+- Aggiunte 10 nuove foto reali alla categoria Idraulica e termoidraulica.
+- Aggiornata la galleria della pagina idraulica con demolizioni, scarichi, predisposizioni, posa piatto doccia e fasi di lavoro.
+- Aggiornato gallery.json per mostrare le nuove immagini nelle gallerie dinamiche/admin.
+- Rafforzati i testi della pagina con riferimento a idraulica e termoidraulica, rifacimento bagni, carico/scarico e manutenzione.

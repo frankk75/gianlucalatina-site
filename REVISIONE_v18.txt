@@ -1,0 +1,15 @@
+GIANLUCA LATINA - REVISIONE V18
+
+- Aggiunto Pronto intervento idraulico nella fascia punti di forza della Home.
+- Mantenuta Assistenza diretta come quinto punto.
+- Rafforzata pagina Idraulica: pronto intervento, perdite, disotturazioni con attrezzature professionali, sanitari, box doccia, press control, serbatoi e manutenzione.
+- Inserita CTA dedicata al pronto intervento con chiamata e WhatsApp.
+- Migliorati title/meta SEO della pagina Idraulica.
+- Corretta una foto precedentemente classificata come Avvolgibili: ritrae un intervento su unità esterna di climatizzazione ed è stata spostata nella categoria Climatizzazione.
+- Arricchita la galleria Climatizzazione con una foto reale di intervento su unità esterna.
+- Arricchita Idraulica con foto di tubazioni/collegamenti durante lavorazione.
+- Avvolgibili: galleria ripulita e concentrata su campionario colori/finiture, senza foto non pertinenti.
+- Riviste le descrizioni di Caldaie, Ristrutturazioni e Avvolgibili.
+- Nessuna reintroduzione della sezione zanzariere.
+- Aggiornata gallery.json per pannello/admin e Home dinamica.
+- Bump cache CSS a v18.

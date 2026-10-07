@@ -1,0 +1,5 @@
+V29
+- Sezione Marchi trattati rifatta con i loghi/immagini presenti nel vecchio portale.
+- Tutti i marchi sono ora mostrati insieme nella stessa posizione della Home, senza suddivisione per categoria.
+- Layout responsive a griglia per PC, tablet e smartphone.
+- Rimossi i semplici nomi testuali delle versioni precedenti.

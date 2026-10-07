@@ -1,0 +1,5 @@
+V22
+- Aggiunta nuova foto reale nella categoria Caldaie.
+- Aggiornata la galleria della pagina caldaie con una caldaia Hermann Saunier Duval installata.
+- Aggiornato gallery.json per mostrare la nuova immagine nelle gallerie dinamiche/admin.
+- Piccole integrazioni alla descrizione del servizio.

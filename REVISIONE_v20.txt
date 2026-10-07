@@ -1,0 +1,5 @@
+V20
+- Aggiunte 4 nuove foto reali nella categoria Ristrutturazioni bagno.
+- Aggiornata la galleria della pagina ristrutturazioni con fasi di demolizione, lavori in corso e risultato finale.
+- Aggiornato gallery.json per mostrare le nuove immagini nelle gallerie dinamiche/admin.
+- Integrata la descrizione del servizio con demolizioni e rifacimento completo.

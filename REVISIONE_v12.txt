@@ -1,0 +1,24 @@
+REVISIONE E COLLAUDO v12 — 05/10/2026
+
+8 pagine verificate in Chromium a larghezze 320, 390, 768, 1024 e 1440 px.
+Esito: nessuna eccedenza orizzontale del documento alle misure verificate;
+nessuna immagine mancante; nessun collegamento locale o ancoraggio mancante;
+nessun errore JavaScript rilevato.
+Menu mobile, sottomenu servizi, chiusura con Escape e avanzamento della
+galleria verificati con interazione nel browser.
+Controllo visivo di home desktop/mobile e pagina climatizzazione mobile.
+
+Le immagini originali del vecchio sito sono ospitate negli assets locali:
+nessun caricamento immagini dalla CDN Wix durante la consultazione.
+Le foto di avvolgibili precedentemente attribuite ad altri servizi sono state
+ricollocate. Le immagini di prodotto sono distinte dai lavori nelle didascalie.
+I pittogrammi sono vettoriali e non dipendono dai caratteri emoji del dispositivo.
+Il CSS e stato consolidato da circa 34 KB a circa 22 KB.
+
+LIMITI
+Verifica eseguita nel browser di collaudo, non su dispositivi fisici iOS/Android.
+Telefono, WhatsApp e collegamenti Google sono predisposti; non sono state
+inviate richieste, effettuate chiamate o verificate nuove recensioni.
+Non e stata eseguita pubblicazione sul dominio.
+Dati aziendali e dichiarazioni sui servizi provengono dal pacchetto ricevuto.
+Pagina privacy ancora provvisoria; promozioni senza prezzi o scadenze garantiti.

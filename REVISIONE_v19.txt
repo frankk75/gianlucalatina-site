@@ -1,0 +1,5 @@
+V19
+- Aggiunte 3 nuove foto reali nella categoria Avvolgibili.
+- Aggiornata la galleria della pagina avvolgibili con nuove installazioni reali.
+- Aggiornato gallery.json per far comparire le nuove immagini anche nelle gallerie dinamiche/admin.
+- Piccole integrazioni descrittive: installazione nuovi avvolgibili, sostituzione componenti, testo richiesta preventivo.

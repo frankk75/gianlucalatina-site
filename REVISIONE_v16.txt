@@ -1,0 +1,6 @@
+VERSIONE 16
+- Inseriti orari attività come da scheda Google: lunedì-sabato 08:00-20:00, domenica chiuso.
+- Nuovo riquadro Orari nella sezione Google della Home.
+- Stato dinamico Aperto ora / Chiuso basato sul fuso Europe/Rome.
+- Orari riepilogati anche nei Contatti e nel footer.
+- Dati strutturati SEO aggiornati con OpeningHoursSpecification.

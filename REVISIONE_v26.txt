@@ -1,0 +1,5 @@
+V26
+- Sezione Chi sono completamente ridisegnata con immagine reale, testo più professionale, quattro punti di forza e CTA chiamata/WhatsApp.
+- Sezione Marchi trattati ampliata e organizzata per Climatizzazione e Caldaie/termoidraulica.
+- Integrati i marchi verificabili presenti nel vecchio sito: Daikin, Hisense, LG, Panasonic, Olimpia Splendid, Aermec, Daitsu, Gree, Argo, Sharp, Fujitsu, Chigo, Arielli, Electrolux, Aircon, Baxi, Ferroli, Riello, Junkers Bosch, Savio, Innovita e Fondital.
+- Migliorata la resa responsive di Chi sono e Marchi su desktop, tablet e smartphone.

@@ -1,0 +1,6 @@
+REVISIONE V17
+- Corretti orari come da scheda Google aggiornata.
+- Lunedì-venerdì: 08:00-19:00.
+- Sabato: 08:00-14:00.
+- Domenica: chiuso.
+- Aggiornato stato dinamico Aperto/Chiuso e dati strutturati SEO.

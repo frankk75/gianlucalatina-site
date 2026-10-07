@@ -1,0 +1,8 @@
+V23 - Rifinitura finale pagine servizio
+- Uniformate le 5 pagine servizio: Idraulica, Climatizzazione, Caldaie, Ristrutturazioni, Avvolgibili.
+- CTA preventivo rese più chiare e orientate all’invio di foto/descrizione via WhatsApp.
+- Aggiunti blocchi vantaggi/valore coerenti per ogni servizio.
+- Gallerie uniformate graficamente e titolate in modo specifico per categoria.
+- Testi commerciali resi più chiari, sintetici e orientati alle esigenze reali del cliente.
+- Request panel finali uniformati con CTA WhatsApp + chiamata.
+- Migliorata resa responsive mobile/tablet.

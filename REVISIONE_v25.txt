@@ -1,0 +1,7 @@
+V25 – Rifinitura finale Home
+- Hero: testo più completo e CTA WhatsApp “Invia una foto”.
+- Card servizi aggiornate con fotografie reali recenti delle relative categorie.
+- Inserita fascia CTA rapida per invio foto, WhatsApp e chiamata.
+- Home gallery curata con 10 lavori reali in evidenza, categoria visibile su ogni foto.
+- Pannello admin: aggiunto campo “In evidenza in Home” per scegliere le foto da mostrare in homepage.
+- Testi Home rifiniti e resa mobile/desktop migliorata.

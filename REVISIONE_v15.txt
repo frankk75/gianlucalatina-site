@@ -1,0 +1,8 @@
+V15 — Pannello gestione contenuti
+- Predisposta area /admin con Decap CMS.
+- Gestione Promozioni: titolo, categoria, badge, descrizione, punti, immagine, link, WhatsApp, visibilità, evidenza in Home.
+- Gestione Foto e Lavori: titolo, categoria, foto, ALT SEO, pagina servizio, visibilità.
+- Home e pagina Promozioni leggono i contenuti dai file JSON in /data.
+- Upload immagini previsto in /assets/uploads.
+- Contenuti attuali mantenuti come fallback se i file dati non fossero caricabili.
+- Per salvare online dal pannello è necessario collegare una volta il deploy Netlify a un repository Git e abilitare autenticazione/Git Gateway compatibile con Decap CMS.

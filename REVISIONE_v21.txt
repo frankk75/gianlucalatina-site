@@ -1,0 +1,5 @@
+V21
+- Aggiunte 2 nuove foto reali nella categoria Climatizzazione.
+- Aggiornata la galleria della pagina climatizzazione con ricarica gas/assistenza tecnica e climatizzatori installati.
+- Aggiornato gallery.json per le nuove immagini nelle gallerie dinamiche/admin.
+- Integrata la descrizione del servizio con assistenza tecnica e ricarica gas refrigerante.

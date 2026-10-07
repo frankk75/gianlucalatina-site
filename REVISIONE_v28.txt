@@ -1,0 +1,5 @@
+REVISIONE V28
+- Sostituite le immagini della home dei servizi con nuove immagini professionali create ad hoc e coerenti con ogni categoria.
+- Utilizzato il soggetto del proprietario del sito (Gianluca Latina) nelle immagini della home.
+- Mantenute invariate le fotografie reali all'interno delle singole pagine servizio.
+- Uniformata la centratura delle immagini nelle card servizi in home.

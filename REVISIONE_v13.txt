@@ -1,0 +1,4 @@
+v13 — Biglietto da visita originale nella sezione Contatti.
+Apertura integrale, download e collegamenti dal footer.
+Verificato su 8 pagine a 320, 390, 768, 1024, 1440 px: nessun overflow, immagine mancante o collegamento locale errato.
+Controllo visivo del biglietto su mobile e desktop.

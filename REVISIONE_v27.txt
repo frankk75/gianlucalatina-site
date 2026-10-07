@@ -1,0 +1,5 @@
+V27
+- Home: migliorate le immagini delle card servizi.
+- Creati ritagli dedicati per le 5 categorie principali.
+- Rimosse le bande nere e gli screenshot troppo evidenti nelle card servizi.
+- Usate solo foto più attinenti alla relativa categoria.
