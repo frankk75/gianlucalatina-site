@@ -1,0 +1,8 @@
+REVISIONE SEO v30 - 07/10/2026
+- Verificati title, description, canonical, H1 e Open Graph.
+- Rafforzati title/description delle pagine Caldaie, Avvolgibili e Ristrutturazioni per intenti locali Siracusa.
+- Aggiunto markup strutturato HomeAndConstructionBusiness alle pagine servizio.
+- Aggiunto twitter:card e hreflang it-IT alle pagine pubbliche.
+- Sitemap aggiornata con lastmod.
+- robots.txt confermato con sitemap canonica.
+- Nessuna modifica a grafica, immagini o funzionalità.

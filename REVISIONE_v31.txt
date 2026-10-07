@@ -1,0 +1,5 @@
+REVISIONE v31 – 07/10/2026
+- index.html NON modificato.
+- caldaie.html: prima voce aggiornata in “Fornitura caldaie a condensazione”; relativo modulo aggiornato a fornitura, installazione e sostituzione.
+- idraulica.html: integrate le categorie “Impianti gas”, “Autoclavi e pompe di sollevamento” e “Disotturazione scarichi”, con i servizi indicati nelle schermate fornite e collegamenti WhatsApp dedicati.
+- Meta description di idraulica aggiornata per includere i nuovi servizi.
