@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "title": "Caldaie e scaldini Innovita • Savio",
+      "category": "Riscaldamento e acqua calda",
+      "badge": "PROMO",
+      "description": "Caldaie e scaldini Innovita e Savio: contattaci per verificare modelli, disponibilità e possibilità di installazione.",
+      "bullets": ["Caldaie e scaldini", "Installazione e sostituzione", "Richiesta preventivo"],
+      "image": "assets/a3fdcb_d6efa4286f514605bcb9cc41581db449~mv2.jpg",
+      "service_url": "caldaie.html",
+      "button_label": "Scopri caldaie e scaldabagni",
+      "whatsapp_text": "Buongiorno, vorrei informazioni sulla promozione caldaie e scaldini Innovita Savio",
+      "active": true,
+      "featured": true
+    },
+    {
+      "title": "Climatizzatori inverter",
+      "category": "Climatizzazione",
+      "badge": "CLIMATIZZAZIONE",
+      "description": "Vendita climatizzatori con installazione certificata F-GAS. Disponibilità su taglie 9000, 12000, 18000 e 24000 BTU, oltre a soluzioni dual split e multi split.",
+      "bullets": ["Vendita climatizzatori", "Installazione certificata F-GAS", "Assistenza, ricarica gas e sanificazione"],
+      "image": "assets/a3fdcb_e4826118852e467d8ff0fdcdcd351949.jpg",
+      "service_url": "climatizzazione.html",
+      "button_label": "Scopri climatizzazione",
+      "whatsapp_text": "Buongiorno, vorrei informazioni sulle promozioni climatizzatori",
+      "active": true,
+      "featured": false
+    }
+  ]
+}

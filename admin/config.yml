@@ -1,0 +1,67 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: it
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+logo_url: "/assets/hero-technician-right.jpg"
+publish_mode: simple
+
+collections:
+  - name: "contenuti"
+    label: "Gestione sito"
+    files:
+      - label: "Promozioni"
+        name: "promozioni"
+        file: "data/promotions.json"
+        format: "json"
+        fields:
+          - label: "Elenco promozioni"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titolo", name: "title", widget: "string"}
+              - {label: "Categoria", name: "category", widget: "string", required: false}
+              - {label: "Etichetta", name: "badge", widget: "string", required: false}
+              - {label: "Descrizione", name: "description", widget: "text"}
+              - label: "Punti principali"
+                name: "bullets"
+                widget: "list"
+                required: false
+                field: {label: "Voce", name: "item", widget: "string"}
+              - {label: "Immagine", name: "image", widget: "image", required: false}
+              - {label: "Pagina servizio", name: "service_url", widget: "string", required: false, hint: "Esempio: climatizzazione.html"}
+              - {label: "Testo pulsante", name: "button_label", widget: "string", required: false}
+              - {label: "Messaggio WhatsApp", name: "whatsapp_text", widget: "text", required: false}
+              - {label: "Visibile", name: "active", widget: "boolean", default: true}
+              - {label: "In evidenza in Home", name: "featured", widget: "boolean", default: false}
+      - label: "Foto e lavori"
+        name: "galleria"
+        file: "data/gallery.json"
+        format: "json"
+        fields:
+          - label: "Foto della galleria"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.category}}"
+            fields:
+              - {label: "Titolo", name: "title", widget: "string"}
+              - label: "Categoria"
+                name: "category"
+                widget: "select"
+                options: ["Idraulica", "Climatizzazione", "Caldaie", "Ristrutturazioni", "Avvolgibili"]
+              - {label: "Foto", name: "image", widget: "image"}
+              - {label: "Descrizione immagine (SEO)", name: "alt", widget: "string"}
+              - label: "Pagina collegata"
+                name: "service_url"
+                widget: "select"
+                options:
+                  - {label: "Idraulica", value: "idraulica.html"}
+                  - {label: "Climatizzazione", value: "climatizzazione.html"}
+                  - {label: "Caldaie e scaldabagni", value: "caldaie.html"}
+                  - {label: "Ristrutturazioni", value: "ristrutturazioni.html"}
+                  - {label: "Avvolgibili", value: "avvolgibili.html"}
+              - {label: "Visibile", name: "active", widget: "boolean", default: true}
+              - {label: "In evidenza in Home", name: "featured_home", widget: "boolean", default: false}
