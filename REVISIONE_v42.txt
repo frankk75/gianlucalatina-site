@@ -1,0 +1,1 @@
+V42 - La sezione Interventi realizzati mostra tutte le foto reali catalogate, ordinate per categoria. Rimosso il limite di 12 immagini.
