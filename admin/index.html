@@ -3,11 +3,210 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="theme-color" content="#073b69">
   <title>Area riservata | Gianluca Latina</title>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link rel="stylesheet" href="admin.css?v=43">
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <header class="admin-topbar">
+    <a class="admin-brand" href="../index.html">
+      <span class="admin-mark">⌂</span>
+      <span><b>GIANLUCA LATINA</b><small>AREA RISERVATA</small></span>
+    </a>
+    <div class="admin-user">
+      <span id="connection-label">Non collegato</span>
+      <button id="logout-btn" class="btn ghost hidden" type="button">Esci</button>
+    </div>
+  </header>
+
+  <main class="admin-shell">
+    <section id="login-view" class="login-card">
+      <div>
+        <p class="kicker">ACCESSO AMMINISTRATORE</p>
+        <h1>Gestisci foto e promozioni</h1>
+        <p class="lead">L'area pubblica resta su GitHub Pages. Per pubblicare modifiche serve un token GitHub personale con accesso in scrittura al solo repository del sito.</p>
+      </div>
+      <div class="login-box">
+        <label for="token-input">Token GitHub</label>
+        <div class="token-row">
+          <input id="token-input" type="password" autocomplete="off" placeholder="github_pat_… oppure ghp_…">
+          <button id="connect-btn" class="btn primary" type="button">Collega</button>
+        </div>
+        <p class="hint">Il token resta solo nella sessione del browser e viene cancellato quando esci o chiudi la sessione. Non viene salvato nei file del sito.</p>
+        <details>
+          <summary>Come creare il token</summary>
+          <ol>
+            <li>GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens.</li>
+            <li>Consenti l'accesso solo al repository <b>frankk75/gianlucalatina-site</b>.</li>
+            <li>Permesso Repository → <b>Contents: Read and write</b>.</li>
+            <li>Copia il token e incollalo qui.</li>
+          </ol>
+        </details>
+        <p id="login-status" class="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="dashboard-view" class="hidden">
+      <div class="dashboard-head">
+        <div>
+          <p class="kicker">GESTIONE SITO</p>
+          <h1>Contenuti</h1>
+          <p>Carica un lavoro nella sua categoria: comparirà automaticamente anche in <b>Interventi realizzati</b> in Home.</p>
+        </div>
+        <a class="btn ghost" href="../index.html" target="_blank" rel="noopener">Apri il sito ↗</a>
+      </div>
+
+      <nav class="tabs" aria-label="Sezioni area riservata">
+        <button class="tab active" data-tab="foto" type="button">Foto lavori</button>
+        <button class="tab" data-tab="promo" type="button">Promozioni</button>
+      </nav>
+
+      <section id="tab-foto" class="tab-panel">
+        <div class="panel-grid">
+          <form id="photo-form" class="editor-card">
+            <input id="photo-edit-index" type="hidden" value="">
+            <h2 id="photo-form-title">Aggiungi foto lavoro</h2>
+
+            <label>Categoria
+              <select id="photo-category" required>
+                <option value="Idraulica">Idraulica</option>
+                <option value="Impianti gas">Impianti gas</option>
+                <option value="Autoclavi">Autoclavi e pompe di sollevamento</option>
+                <option value="Disotturazione">Disotturazione scarichi</option>
+                <option value="Climatizzazione">Climatizzazione</option>
+                <option value="Caldaie">Caldaie</option>
+                <option value="Ristrutturazioni">Bagni e ristrutturazioni</option>
+                <option value="Avvolgibili">Avvolgibili e serrande</option>
+              </select>
+            </label>
+
+            <label>Titolo del lavoro
+              <input id="photo-title" type="text" required maxlength="90" placeholder="Es. Installazione autoclave con serbatoio">
+            </label>
+
+            <label>Descrizione immagine per Google
+              <input id="photo-alt" type="text" maxlength="160" placeholder="Se lasci vuoto viene generata automaticamente">
+            </label>
+
+            <label>Foto
+              <input id="photo-file" type="file" accept="image/jpeg,image/png,image/webp">
+              <small id="photo-file-hint">Obbligatoria per un nuovo lavoro. L'immagine viene ottimizzata prima del caricamento.</small>
+            </label>
+
+            <div id="photo-preview" class="preview empty">Anteprima foto</div>
+
+            <div class="form-actions">
+              <button id="photo-save-btn" class="btn primary" type="submit">Pubblica foto</button>
+              <button id="photo-cancel-btn" class="btn ghost hidden" type="button">Annulla modifica</button>
+            </div>
+            <p id="photo-status" class="status" aria-live="polite"></p>
+          </form>
+
+          <div class="list-card">
+            <div class="list-head">
+              <div><h2>Foto già pubblicate</h2><p>Puoi modificarle, nasconderle o rimuoverle dalla galleria.</p></div>
+              <button id="photos-refresh" class="btn ghost small" type="button">Aggiorna</button>
+            </div>
+            <div class="filter-row">
+              <select id="photo-filter">
+                <option value="">Tutte le categorie</option>
+                <option>Idraulica</option>
+                <option>Impianti gas</option>
+                <option>Autoclavi</option>
+                <option>Disotturazione</option>
+                <option>Climatizzazione</option>
+                <option>Caldaie</option>
+                <option>Ristrutturazioni</option>
+                <option>Avvolgibili</option>
+              </select>
+              <span id="photo-count"></span>
+            </div>
+            <div id="photos-list" class="content-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tab-promo" class="tab-panel hidden">
+        <div class="panel-grid">
+          <form id="promo-form" class="editor-card">
+            <input id="promo-edit-index" type="hidden" value="">
+            <h2 id="promo-form-title">Aggiungi promozione</h2>
+
+            <label>Titolo
+              <input id="promo-title" type="text" required maxlength="100" placeholder="Es. Climatizzatore 12000 BTU">
+            </label>
+
+            <div class="two-cols">
+              <label>Categoria
+                <input id="promo-category" type="text" maxlength="60" placeholder="Climatizzazione">
+              </label>
+              <label>Etichetta
+                <input id="promo-badge" type="text" maxlength="30" value="PROMO">
+              </label>
+            </div>
+
+            <label>Descrizione
+              <textarea id="promo-description" required rows="4" maxlength="500" placeholder="Descrivi l'offerta senza inserire condizioni non confermate."></textarea>
+            </label>
+
+            <label>Punti principali
+              <textarea id="promo-bullets" rows="4" placeholder="Una voce per riga"></textarea>
+            </label>
+
+            <label>Pagina collegata
+              <select id="promo-service">
+                <option value="climatizzazione.html">Climatizzazione</option>
+                <option value="caldaie.html">Caldaie e scaldabagni</option>
+                <option value="idraulica.html">Idraulica</option>
+                <option value="ristrutturazioni.html">Ristrutturazioni</option>
+                <option value="avvolgibili.html">Avvolgibili</option>
+              </select>
+            </label>
+
+            <label>Testo pulsante
+              <input id="promo-button" type="text" maxlength="80" placeholder="Scopri il servizio">
+            </label>
+
+            <label>Messaggio WhatsApp
+              <textarea id="promo-whatsapp" rows="2" maxlength="300" placeholder="Buongiorno, vorrei informazioni sulla promozione…"></textarea>
+            </label>
+
+            <label>Immagine promozione
+              <input id="promo-file" type="file" accept="image/jpeg,image/png,image/webp">
+              <small>Facoltativa in modifica; puoi mantenere l'immagine già pubblicata.</small>
+            </label>
+
+            <div id="promo-preview" class="preview empty">Anteprima immagine</div>
+
+            <label class="check-row">
+              <input id="promo-featured" type="checkbox">
+              <span>Metti in evidenza in Home</span>
+            </label>
+
+            <div class="form-actions">
+              <button id="promo-save-btn" class="btn primary" type="submit">Pubblica promozione</button>
+              <button id="promo-cancel-btn" class="btn ghost hidden" type="button">Annulla modifica</button>
+            </div>
+            <p id="promo-status" class="status" aria-live="polite"></p>
+          </form>
+
+          <div class="list-card">
+            <div class="list-head">
+              <div><h2>Promozioni pubblicate</h2><p>Modifica, attiva/disattiva o rimuovi una promozione.</p></div>
+              <button id="promo-refresh" class="btn ghost small" type="button">Aggiorna</button>
+            </div>
+            <div id="promo-list" class="content-list"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <div id="busy-overlay" class="busy hidden" role="status" aria-live="polite">
+    <div class="spinner"></div><span id="busy-text">Pubblicazione in corso…</span>
+  </div>
+
+  <script src="admin.js?v=43"></script>
 </body>
 </html>
