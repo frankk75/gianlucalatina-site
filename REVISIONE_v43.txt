@@ -1,0 +1,10 @@
+V43 - Area riservata completa
+- Nuova area /admin indipendente da Netlify/Decap CMS.
+- Accesso operativo tramite token GitHub personale, conservato solo nella sessione del browser.
+- Upload foto lavori con ottimizzazione automatica.
+- Categorie: Idraulica, Impianti gas, Autoclavi, Disotturazione, Climatizzazione, Caldaie, Ristrutturazioni, Avvolgibili.
+- Ogni nuova foto viene registrata in data/gallery.json e appare automaticamente sia nella categoria scelta sia nella Home “Interventi realizzati”.
+- Modifica, nascondi/mostra e rimuovi foto dal catalogo.
+- Gestione promozioni: creazione, modifica, immagine, punti principali, WhatsApp, evidenza Home, visibilità e rimozione.
+- Le immagini eliminate dal catalogo non vengono cancellate fisicamente da GitHub, per sicurezza.
+- Le pagine categoria leggono automaticamente data/gallery.json; non serve più modificare manualmente l'HTML per aggiungere nuove foto.
