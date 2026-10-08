@@ -1,0 +1,6 @@
+V50 - Aggiunte 3 nuove foto nella sezione Bagni / Ristrutturazioni:
+- Rivestimento bagno in posa
+- Posa piastrelle bagno con livella
+- Rifacimento scarico bagno a pavimento
+
+Aggiornato data/gallery.json: le foto compaiono automaticamente nella pagina ristrutturazioni e nella sezione interventi realizzati della categoria.

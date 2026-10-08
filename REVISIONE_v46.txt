@@ -1,0 +1,2 @@
+V46 - Aggiunta marca Beko accanto a Junkers Bosch nella sezione Marchi trattati.
+- Logo Beko salvato localmente in assets/logo-beko.svg per evitare problemi di caricamento da fonti esterne.

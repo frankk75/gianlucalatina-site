@@ -1,0 +1,20 @@
+V51 - SEO e gallerie complete - 2026-10-08
+
+SEO
+- Titoli e meta description riscritti per intenti locali e principali servizi a Siracusa.
+- Canonical e hreflang it-IT uniformati.
+- Open Graph e Twitter Card completi con immagini locali del sito.
+- Meta robots con max-image-preview:large.
+- Dati strutturati Schema.org aggiornati: WebSite, HomeAndConstructionBusiness, Service, BreadcrumbList e CollectionPage.
+- Informazioni LocalBusiness arricchite con area servita, orari, social e catalogo servizi.
+- Sitemap aggiornata al 2026-10-08 e potenziata con image sitemap per le foto dei lavori.
+- robots.txt aggiornato: area /admin/ esclusa dall'indicizzazione.
+- CSS e JavaScript portati a versione cache v51.
+
+INTERVENTI REALIZZATI
+- Home aggiornata per mostrare tutte le 56 foto attive, non soltanto la selezione featured.
+- Galleria prerenderizzata nell'HTML: le immagini sono presenti anche prima del caricamento JavaScript.
+- Gallerie delle singole pagine servizio prerenderizzate dal database data/gallery.json.
+- Navigazione categorie automatica con conteggio fotografie.
+- Distribuzione attuale: Idraulica: 2, Autoclavi: 4, Climatizzazione: 7, Caldaie: 8, Ristrutturazioni: 29, Avvolgibili: 6.
+- Incluse le ultime foto: caldaie/scaldabagni, climatizzazione, autoclavi e bagni/ristrutturazioni.
