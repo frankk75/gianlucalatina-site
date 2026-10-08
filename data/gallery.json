@@ -46,6 +46,42 @@
       "featured_home": true
     },
     {
+      "title": "Pompa autoclave con presscontrol",
+      "category": "Autoclavi",
+      "image": "assets/autoclave-lavoro-5.jpg",
+      "alt": "Pompa autoclave con presscontrol e serbatoio acqua a Siracusa",
+      "service_url": "idraulica.html#autoclavi",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Intervento su unità esterna Airwell",
+      "category": "Climatizzazione",
+      "image": "assets/clima-real-5.jpg",
+      "alt": "Unità esterna Airwell durante assistenza tecnica e ricarica gas a Siracusa",
+      "service_url": "climatizzazione.html",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Installazione climatizzatore Candy",
+      "category": "Climatizzazione",
+      "image": "assets/clima-real-6.jpg",
+      "alt": "Installazione unità esterna Candy con tecnico al lavoro a Siracusa",
+      "service_url": "climatizzazione.html",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Ricarica gas climatizzatore",
+      "category": "Climatizzazione",
+      "image": "assets/clima-real-7.jpg",
+      "alt": "Tecnico durante ricarica gas refrigerante su climatizzatore a Siracusa",
+      "service_url": "climatizzazione.html",
+      "active": true,
+      "featured_home": true
+    },
+    {
       "title": "Climatizzatori installati ed esposizione",
       "category": "Climatizzazione",
       "image": "assets/clima-real-2.jpg",
@@ -78,6 +114,33 @@
       "image": "assets/clima-real-1.jpg",
       "alt": "Intervento tecnico su unità esterna con ricarica gas refrigerante R410A a Siracusa",
       "service_url": "climatizzazione.html",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Installazione scaldabagno Ariston Velis",
+      "category": "Caldaie",
+      "image": "assets/scaldabagno-ariston-velis-real-1.jpg",
+      "alt": "Scaldabagno elettrico Ariston Velis installato a Siracusa",
+      "service_url": "caldaie.html#lavori",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Riparazione caldaia Riello a metano",
+      "category": "Caldaie",
+      "image": "assets/caldaia-riello-riparazione-real-1.jpg",
+      "alt": "Riparazione caldaia Riello a metano durante intervento tecnico a Siracusa",
+      "service_url": "caldaie.html#lavori",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Caldaia Riello a metano",
+      "category": "Caldaie",
+      "image": "assets/caldaia-riello-real-1.jpg",
+      "alt": "Caldaia Riello a metano installata a Siracusa",
+      "service_url": "caldaie.html#lavori",
       "active": true,
       "featured_home": true
     },
@@ -356,6 +419,33 @@
       "category": "Ristrutturazioni",
       "image": "assets/idrau-termo-real-2.jpg",
       "alt": "Nuovo scarico bagno e collegamenti termoidraulici durante la ristrutturazione a Siracusa",
+      "service_url": "ristrutturazioni.html#lavori",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Rivestimento bagno in posa",
+      "category": "Ristrutturazioni",
+      "image": "assets/ristrutturazione-bagno-real-11.jpg",
+      "alt": "Rivestimento bagno in fase di posa lungo la parete a Siracusa",
+      "service_url": "ristrutturazioni.html#lavori",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Posa piastrelle bagno con livella",
+      "category": "Ristrutturazioni",
+      "image": "assets/ristrutturazione-bagno-real-12.jpg",
+      "alt": "Posa piastrelle bagno con controllo livello durante la ristrutturazione a Siracusa",
+      "service_url": "ristrutturazioni.html#lavori",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Rifacimento scarico bagno a pavimento",
+      "category": "Ristrutturazioni",
+      "image": "assets/ristrutturazione-bagno-real-13.jpg",
+      "alt": "Rifacimento scarico bagno a pavimento durante lavori di ristrutturazione a Siracusa",
       "service_url": "ristrutturazioni.html#lavori",
       "active": true,
       "featured_home": true
