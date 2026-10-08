@@ -6,19 +6,29 @@
 
  async function renderManagedContent(){
   const galleryRail=document.querySelector('[data-managed-gallery]');
-  if(galleryRail){
+  const categoryRails=[...document.querySelectorAll('[data-gallery-category]')];
+  if(galleryRail||categoryRails.length){
    const data=await getJSON('data/gallery.json');
    const allItems=(data?.items||[]).filter(x=>x.active!==false);
-   const featured=allItems.filter(x=>x.featured_home===true);
-   const items=featured.length?featured:allItems;
-   if(items.length){galleryRail.innerHTML=items.map(x=>`<figure class="work-slide"><img loading="lazy" src="${esc(x.image)}" alt="${esc(x.alt||x.title)}" decoding="async" width="1000" height="750"><figcaption><span class="work-category">${esc(x.category||'Lavoro')}</span>${esc(x.title)}<a class="photo-link" href="${esc(x.service_url||'#servizi')}">Scopri il servizio →</a></figcaption></figure>`).join('');}
+   if(galleryRail){
+    const featured=allItems.filter(x=>x.featured_home===true);
+    const items=featured.length?featured:allItems;
+    if(items.length){galleryRail.innerHTML=items.map(x=>`<figure class="work-slide"><img loading="lazy" src="${esc(x.image)}" alt="${esc(x.alt||x.title)}" decoding="async" width="1000" height="750"><figcaption><span class="work-category">${esc(x.category||'Lavoro')}</span>${esc(x.title)}<a class="photo-link" href="${esc(x.service_url||'#servizi')}">Scopri il servizio →</a></figcaption></figure>`).join('');}
+   }
+   categoryRails.forEach(rail=>{
+    const category=rail.dataset.galleryCategory;
+    const items=allItems.filter(x=>x.category===category);
+    if(items.length){
+     rail.innerHTML=items.map(x=>`<figure class="work-slide"><img loading="lazy" src="${esc(x.image)}" alt="${esc(x.alt||x.title)}" decoding="async" width="1000" height="750"><figcaption>${esc(x.title)}<a class="photo-link" href="#richiesta">Richiedi informazioni →</a></figcaption></figure>`).join('');
+    }
+   });
   }
   const promoGrid=document.querySelector('[data-managed-promotions]');
   const homeFeatured=document.querySelector('[data-managed-featured-promo]');
   if(promoGrid||homeFeatured){
    const data=await getJSON('data/promotions.json');
    const items=(data?.items||[]).filter(x=>x.active!==false);
-   if(promoGrid&&items.length){promoGrid.innerHTML=items.map(x=>`<article class="promo-card">${x.image?`<div class="managed-promo-image"><img loading="lazy" src="${esc(x.image)}" alt="${esc(x.title)}"></div>`:''}<span class="promo-badge">${esc(x.badge||x.category||'PROMO')}</span><h3>${esc(x.title)}</h3><p>${esc(x.description)}</p>${x.bullets?.length?`<ul>${x.bullets.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>`:''}<div class="managed-promo-actions">${x.whatsapp_text?`<a class="primary inline" href="${wa(x.whatsapp_text)}" rel="noopener">Verifica disponibilità</a>`:''}${x.service_url?`<a class="text-link" href="${esc(x.service_url)}">${esc(x.button_label||'Scopri il servizio')} →</a>`:''}</div></article>`).join('');}
+   if(promoGrid&&items.length){promoGrid.innerHTML=items.map(x=>`<article class="promo-card">${x.image?`<div class="managed-promo-image"><img loading="lazy" src="${esc(x.image)}" alt="${esc(x.title)}"></div>`:''}<span class="promo-badge">${esc(x.badge||x.category||'PROMO')}</span><h3>${esc(x.title)}</h3><p>${esc(x.description)}</p>${x.bullets?.length?`<ul>${x.bullets.map(b=>`<li>${esc(typeof b==='string'?b:(b.item||''))}</li>`).join('')}</ul>`:''}<div class="managed-promo-actions">${x.whatsapp_text?`<a class="primary inline" href="${wa(x.whatsapp_text)}" rel="noopener">Verifica disponibilità</a>`:''}${x.service_url?`<a class="text-link" href="${esc(x.service_url)}">${esc(x.button_label||'Scopri il servizio')} →</a>`:''}</div></article>`).join('');}
    if(homeFeatured&&items.length){
     const x=items.find(i=>i.featured)||items[0];
     homeFeatured.innerHTML=`<span class="promo-badge">${esc(x.badge||'PROMO')}</span><small>${esc(x.category||'OFFERTA')}</small><h3>${esc(x.title)}</h3><p>${esc(x.description)}</p><b>Vai alle promozioni →</b>`;
