@@ -11,9 +11,10 @@
    const data=await getJSON('data/gallery.json');
    const allItems=(data?.items||[]).filter(x=>x.active!==false);
    if(galleryRail){
-    const featured=allItems.filter(x=>x.featured_home===true);
-    const items=featured.length?featured:allItems;
+    const items=allItems;
     if(items.length){galleryRail.innerHTML=items.map(x=>`<figure class="work-slide"><img loading="lazy" src="${esc(x.image)}" alt="${esc(x.alt||x.title)}" decoding="async" width="1000" height="750"><figcaption><span class="work-category">${esc(x.category||'Lavoro')}</span>${esc(x.title)}<a class="photo-link" href="${esc(x.service_url||'#servizi')}">Scopri il servizio →</a></figcaption></figure>`).join('');}
+    const categoryNav=document.querySelector('[data-gallery-categories]');
+    if(categoryNav){const order=['Idraulica','Autoclavi','Climatizzazione','Caldaie','Ristrutturazioni','Avvolgibili'];const map=new Map;allItems.forEach(x=>{const k=x.category||'Lavori';if(!map.has(k))map.set(k,{count:0,url:x.service_url||'#lavori'});map.get(k).count++;});categoryNav.innerHTML=order.filter(k=>map.has(k)).map(k=>{const v=map.get(k);return `<a href="${esc(v.url)}"><b>${esc(k)}</b><span>${v.count} foto</span></a>`}).join('');}
    }
    categoryRails.forEach(rail=>{
     const category=rail.dataset.galleryCategory;

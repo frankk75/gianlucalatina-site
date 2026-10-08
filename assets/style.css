@@ -313,3 +313,8 @@ footer a[rel="nofollow"]{opacity:.72;font-size:.92em}
 
 /* Social buttons home */
 .social-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}.social-btn{display:inline-flex;align-items:center;gap:9px;padding:12px 18px;border-radius:12px;font-weight:700;text-decoration:none;border:1px solid #d8e0e7;background:#fff;color:#073b69;box-shadow:0 5px 16px rgba(0,0,0,.06);transition:transform .18s ease,box-shadow .18s ease}.social-btn span{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;font-weight:800}.social-btn.facebook span{background:#1877f2;color:#fff}.social-btn.google span{background:#fff;color:#4285f4;border:1px solid #dadce0}.social-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.10)}@media(max-width:560px){.social-links{display:grid;grid-template-columns:1fr 1fr}.social-btn{justify-content:center;padding:11px 10px}}
+
+
+/* v51 - SEO + navigazione categorie lavori */
+.work-category-nav{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0 24px}.work-category-nav a{display:flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid #d7e5ed;border-radius:999px;background:#fff;color:#073b69;text-decoration:none;box-shadow:0 4px 14px rgba(5,44,73,.05);transition:.2s ease}.work-category-nav a:hover{transform:translateY(-1px);border-color:#9ccfe7;box-shadow:0 8px 18px rgba(5,44,73,.09)}.work-category-nav b{font-size:11px}.work-category-nav span{font-size:9px;color:#718795;font-weight:800}.work-carousel-section .gallery-hint{max-width:900px}.work-slide img{background:#eef4f7}
+@media(max-width:560px){.work-category-nav{gap:7px;margin:14px 0 18px}.work-category-nav a{padding:8px 10px}.work-category-nav b{font-size:10px}.work-category-nav span{font-size:8px}}

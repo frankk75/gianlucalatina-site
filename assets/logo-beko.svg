@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 180" role="img" aria-labelledby="t">
+<title id="t">Beko</title>
+<rect width="420" height="180" fill="white"/>
+<text x="210" y="112" text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="96" font-weight="700" letter-spacing="-5"
+      fill="#0b4f9c">beko</text>
+<path d="M118 138 H302" stroke="#20a9e0" stroke-width="11" stroke-linecap="round"/>
+</svg>
