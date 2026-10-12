@@ -1,0 +1,4 @@
+V56 – Home: aggiunta "Vendita e fornitura" nei punti di forza.
+- Hero: nuovo badge "Vendita e fornitura".
+- Sezione punti di forza: nuovo punto 06 "Vendita e fornitura" con descrizione dedicata.
+- Nessuna modifica a grafica, gallerie, contatti o funzionalità.
