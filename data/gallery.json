@@ -451,6 +451,15 @@
       "featured_home": true
     },
     {
+      "title": "Pitturazioni professionali e cartongesso",
+      "category": "Pitturazioni",
+      "image": "assets/home-pitturazioni-gianluca.png",
+      "alt": "Gianluca Latina durante un lavoro di stuccatura e finitura parete in cartongesso a Siracusa",
+      "service_url": "pitturazioni.html",
+      "active": true,
+      "featured_home": true
+    },
+    {
       "title": "Montaggio avvolgibili in PVC effetto Douglas",
       "category": "Avvolgibili",
       "image": "assets/avvolgibile-real-4.jpg",
