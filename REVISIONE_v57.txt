@@ -1,0 +1,10 @@
+REVISIONE v57 – PITTTURAZIONI E CARTONGESSO
+
+Aggiornamenti inclusi:
+- Nuova pagina servizio: pitturazioni.html
+- Nuova sezione servizio nella home
+- Inserita foto del nuovo servizio: assets/home-pitturazioni-gianluca.png
+- Aggiornati menu e footer con il nuovo servizio
+- Aggiornato sitemap.xml
+- Aggiornato data/gallery.json con categoria Pitturazioni
+- Aggiornato schema SEO con Pitturazioni e cartongesso
