@@ -1,0 +1,2 @@
+Aggiornamento V53 SEO mirato.
+Sostituire i file presenti nella root del repository GitHub mantenendo invariati assets, data, admin e fotografie.
