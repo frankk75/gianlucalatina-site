@@ -319,3 +319,96 @@ footer a[rel="nofollow"]{opacity:.72;font-size:.92em}
 /* v51 - SEO + navigazione categorie lavori */
 .work-category-nav{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0 24px}.work-category-nav a{display:flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid #d7e5ed;border-radius:999px;background:#fff;color:#073b69;text-decoration:none;box-shadow:0 4px 14px rgba(5,44,73,.05);transition:.2s ease}.work-category-nav a:hover{transform:translateY(-1px);border-color:#9ccfe7;box-shadow:0 8px 18px rgba(5,44,73,.09)}.work-category-nav b{font-size:11px}.work-category-nav span{font-size:9px;color:#718795;font-weight:800}.work-carousel-section .gallery-hint{max-width:900px}.work-slide img{background:#eef4f7}
 @media(max-width:560px){.work-category-nav{gap:7px;margin:14px 0 18px}.work-category-nav a{padding:8px 10px}.work-category-nav b{font-size:10px}.work-category-nav span{font-size:8px}}
+
+/* === v59 Responsive desktop/tablet/mobile === */
+:root{
+  --content-max:1440px;
+  --gutter:max(20px,calc((100% - var(--content-max))/2));
+}
+html,body{max-width:100%;overflow-x:hidden}
+body{min-width:320px}
+img,video,svg{max-width:100%;height:auto}
+
+/* contenitori fluidi su schermi grandi e piccoli */
+.need-hub,.section,.journey,.work-carousel-section,.promo-section,.google-proof,.about,.contact,.faq-section,.related-services,.service-module,.detail-content,.request-panel{
+  padding-left:clamp(20px,4vw,72px);
+  padding-right:clamp(20px,4vw,72px);
+}
+.need-inner,.journey-inner,.related-inner,.service-module-inner,.faq-inner,.promo-wrap,.google-card,.contact,.about-modern,.work-carousel-head,.work-carousel,.work-category-nav{
+  width:min(100%,1440px);
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* Header più elastico */
+header{padding-left:clamp(18px,3vw,48px);padding-right:clamp(18px,3vw,48px);gap:clamp(12px,1.6vw,24px)}
+header nav{gap:clamp(12px,1.4vw,22px)}
+
+/* Hero: scala con viewport senza diventare troppo alto/largo */
+.hero{min-height:clamp(560px,62vh,760px)}
+.hero-content{padding-left:clamp(28px,5vw,88px);padding-right:clamp(28px,5vw,88px)}
+.hero h1{font-size:clamp(42px,4.4vw,72px);max-width:min(760px,58vw)}
+.hero-content>p:not(.eyebrow){font-size:clamp(16px,1.2vw,19px);max-width:min(620px,48vw)}
+
+/* Griglie realmente responsive */
+.service-cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,1.6vw,24px)}
+.service-card,.service-card:nth-child(n+4),.service-card:last-child{grid-column:auto}
+.service-visual{height:clamp(190px,16vw,260px)}
+.need-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.journey-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.proof-ribbon-inner{grid-template-columns:repeat(6,minmax(0,1fr));max-width:1440px;padding-left:clamp(16px,3vw,48px);padding-right:clamp(16px,3vw,48px)}
+.proof-ribbon-inner>div{min-width:0;padding-left:50px;padding-right:14px}
+.proof-ribbon b,.proof-ribbon small{overflow-wrap:anywhere}
+.brand-logo-grid{max-width:1440px}
+
+/* Pagine interne */
+.detail-inner{padding-left:clamp(28px,5vw,88px);padding-right:clamp(28px,5vw,88px)}
+.detail-inner h1{font-size:clamp(38px,4vw,64px);max-width:min(900px,72vw)}
+.detail-content{grid-template-columns:minmax(0,1.35fr) minmax(300px,.65fr)}
+.module-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.related-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+
+/* Notebook / desktop compatti */
+@media (max-width:1199px){
+  :root{--content-max:1080px}
+  .service-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .service-visual{height:220px}
+  .proof-ribbon-inner{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .proof-ribbon-inner>div{border-bottom:1px solid var(--line)}
+  .proof-ribbon-inner>div:nth-child(3n){border-right:0}
+  .hero h1{max-width:680px}
+  .hero-content>p:not(.eyebrow){max-width:540px}
+  .module-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+/* Tablet e finestre strette */
+@media (max-width:899px){
+  .service-cards,.need-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .journey-grid{grid-template-columns:1fr}
+  .proof-ribbon-inner{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .proof-ribbon-inner>div:nth-child(3n){border-right:1px solid var(--line)}
+  .proof-ribbon-inner>div:nth-child(2n){border-right:0}
+  .detail-content{grid-template-columns:1fr}
+  .related-grid{grid-template-columns:1fr}
+  .promo-wrap,.google-card,.contact,.about-modern{grid-template-columns:1fr}
+  .hero h1{max-width:70vw}
+  .hero-content>p:not(.eyebrow){max-width:64vw}
+}
+
+/* Mobile grande */
+@media (max-width:700px){
+  .service-cards,.need-grid{grid-template-columns:1fr}
+  .service-visual{height:220px}
+  .hero h1,.hero-content>p:not(.eyebrow),.hero .eyebrow,.hero .actions,.hero .trust{max-width:68%}
+  .module-grid{grid-template-columns:1fr}
+  .proof-ribbon-inner{grid-template-columns:1fr 1fr}
+  .about-modern{grid-template-columns:1fr}
+}
+
+/* Desktop molto largo: usa meglio lo spazio senza allungare i testi */
+@media (min-width:1600px){
+  .hero-content{padding-left:max(72px,calc((100% - 1440px)/2));padding-right:max(72px,calc((100% - 1440px)/2))}
+  .service-copy{padding:28px}
+  .service-copy h3{font-size:26px}
+  .need-card{padding:20px}
+}
