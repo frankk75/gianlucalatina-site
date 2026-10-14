@@ -1,0 +1,6 @@
+REVISIONE v59 – RESPONSIVE
+- Layout fluidi per desktop grande, notebook, tablet e mobile.
+- Griglia servizi: 3 colonne desktop, 2 notebook/tablet, 1 mobile.
+- Hero, spaziature e testi scalano con la risoluzione.
+- Migliorati header, fasce informative, griglie e pagine interne.
+- Aggiornato versionamento CSS a v59 per evitare cache.
