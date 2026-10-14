@@ -114,7 +114,8 @@ nav>a[aria-current="page"]{background:#eaf6fd;color:var(--blue)}
 .service-card:nth-child(2) .service-visual:before{content:"VENDITA + F-GAS"}
 .service-card:nth-child(3) .service-visual:before{content:"RISCALDAMENTO"}
 .service-card:nth-child(4) .service-visual:before{content:"BAGNI CHIAVI IN MANO"}
-.service-card:nth-child(5) .service-visual:before{content:"RIPARAZIONE + MOTORI"}
+.service-card:nth-child(5) .service-visual:before{content:"PITTURAZIONI + CARTONGESSO"}
+.service-card:nth-child(6) .service-visual:before{content:"RIPARAZIONE + MOTORI"}
 .service-visual:before{position:absolute;left:14px;bottom:13px;z-index:2;background:rgba(255,255,255,.94);color:var(--navy);font-size:9px;font-weight:950;letter-spacing:.08em;padding:7px 9px;border-radius:999px;box-shadow:0 5px 16px rgba(0,0,0,.1)}
 .service-copy{padding:24px 24px 26px}.service-copy h3{letter-spacing:-.03em}.service-copy b{color:var(--blue);display:inline-flex;gap:6px;align-items:center}
 .service-card.featured{outline:0;border-color:#b7dbef}
