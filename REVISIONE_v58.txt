@@ -1,0 +1,4 @@
+REVISIONE v58
+- Corretto badge della card Pitturazioni e cartongesso in Home.
+- Il badge 'RIPARAZIONE + MOTORI' resta esclusivamente sulla card Avvolgibili e serrande.
+- Aggiornata versione CSS in Home per evitare cache del browser.
