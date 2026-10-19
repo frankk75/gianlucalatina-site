@@ -412,3 +412,7 @@ header nav{gap:clamp(12px,1.4vw,22px)}
   .service-copy h3{font-size:26px}
   .need-card{padding:20px}
 }
+
+/* v60 service areas */
+.service-areas{padding:72px 24px;background:#f7fafc;border-top:1px solid #e5eef4;border-bottom:1px solid #e5eef4}.service-areas-inner{width:min(100% - 16px,1180px);margin:0 auto}.service-areas h2{margin:8px 0 12px;color:#073b69;font-size:clamp(1.8rem,3vw,2.8rem)}.service-areas p:not(.kicker){max-width:780px;color:#5b7080;font-size:1.05rem;line-height:1.65}.service-area-list{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.service-area-list span{padding:12px 18px;border:1px solid #cfe0ea;border-radius:999px;background:#fff;color:#0b3f61;font-weight:700}.service-area-list span:first-child{background:#e8f6fd;border-color:#9bd8f5}.brands-section .brands-head h2{max-width:900px}
+@media(max-width:700px){.service-areas{padding:48px 16px}.service-areas-inner{width:100%}.service-area-list{gap:8px}.service-area-list span{padding:10px 13px;font-size:.93rem}}
