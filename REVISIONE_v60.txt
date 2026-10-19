@@ -1,0 +1,14 @@
+REVISIONE v60 – SEO E QUALITÀ
+
+- Meta description Home accorciata.
+- Rimosso il link Area riservata da tutte le pagine pubbliche.
+- /admin/ confermata noindex,nofollow,noarchive e bloccata in robots.txt.
+- Sezione Marchi riscritta senza riferimenti al precedente portale.
+- ALT generici migliorati senza inventare nomi non verificati.
+- Aggiunta sezione Zone servite: Siracusa, Floridia, Solarino, Priolo Gargallo, Augusta, Avola, Noto, Cassibile.
+- Aggiornato areaServed nei dati strutturati.
+- Descrizioni foto bagno fase 1–10 riscritte in modo specifico.
+- Aggiornati gallery.json e sitemap.xml.
+- Cache CSS aggiornata a v60.
+
+NOTA: i loghi esterni Wix/Wikimedia non sono stati convertiti in file locali in questa revisione perché i file sorgente non sono inclusi nel pacchetto locale; resta consigliato sostituirli con copie locali appena disponibili.
