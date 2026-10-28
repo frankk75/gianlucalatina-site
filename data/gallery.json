@@ -1,83 +1,20 @@
 {
   "items": [
     {
-      "title": "Box doccia e installazioni",
+      "title": "Scarichi e collegamenti termoidraulici",
       "category": "Idraulica",
-      "image": "assets/a3fdcb_4183c923dcde4e57b34d256b1c3c50fd.jpg",
-      "alt": "Montaggio box doccia a Siracusa",
+      "image": "assets/idrau-termo-real-2.jpg",
+      "alt": "Nuovo scarico bagno e collegamenti termoidraulici durante la ristrutturazione a Siracusa",
       "service_url": "idraulica.html",
       "active": true,
       "featured_home": true
     },
     {
-      "title": "Idraulica e impianti",
+      "title": "Posa piatto doccia",
       "category": "Idraulica",
-      "image": "assets/a3fdcb_1e8d561c4eb74bf2aa9997832afb0de8.jpg",
-      "alt": "Lavori idraulici a Siracusa",
+      "image": "assets/idrau-termo-real-5.jpg",
+      "alt": "Posa piatto doccia durante intervento idraulico in bagno a Siracusa",
       "service_url": "idraulica.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Autoclave e pompa di sollevamento",
-      "category": "Autoclavi",
-      "image": "assets/autoclave-lavoro-1.jpg",
-      "alt": "Autoclave e pompa di sollevamento a Siracusa",
-      "service_url": "idraulica.html#autoclavi",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Serbatoio e impianto autoclave",
-      "category": "Autoclavi",
-      "image": "assets/autoclave-lavoro-4.jpg",
-      "alt": "Serbatoio acqua e impianto autoclave in locale tecnico a Siracusa",
-      "service_url": "idraulica.html#autoclavi",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Serbatoio e sistema di pressurizzazione",
-      "category": "Autoclavi",
-      "image": "assets/autoclave-lavoro-2.jpg",
-      "alt": "Serbatoio e sistema di pressurizzazione a Siracusa",
-      "service_url": "idraulica.html#autoclavi",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Pompa autoclave con presscontrol",
-      "category": "Autoclavi",
-      "image": "assets/autoclave-lavoro-5.jpg",
-      "alt": "Pompa autoclave con presscontrol e serbatoio acqua a Siracusa",
-      "service_url": "idraulica.html#autoclavi",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Intervento su unità esterna Airwell",
-      "category": "Climatizzazione",
-      "image": "assets/clima-real-5.jpg",
-      "alt": "Unità esterna Airwell durante assistenza tecnica e ricarica gas a Siracusa",
-      "service_url": "climatizzazione.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Installazione climatizzatore Candy",
-      "category": "Climatizzazione",
-      "image": "assets/clima-real-6.jpg",
-      "alt": "Installazione unità esterna Candy con tecnico al lavoro a Siracusa",
-      "service_url": "climatizzazione.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Ricarica gas climatizzatore",
-      "category": "Climatizzazione",
-      "image": "assets/clima-real-7.jpg",
-      "alt": "Tecnico durante ricarica gas refrigerante su climatizzatore a Siracusa",
-      "service_url": "climatizzazione.html",
       "active": true,
       "featured_home": true
     },
@@ -86,24 +23,6 @@
       "category": "Climatizzazione",
       "image": "assets/clima-real-2.jpg",
       "alt": "Climatizzatori a parete Samsung e Haier installati a Siracusa",
-      "service_url": "climatizzazione.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Climatizzazione",
-      "category": "Climatizzazione",
-      "image": "assets/a3fdcb_e4826118852e467d8ff0fdcdcd351949.jpg",
-      "alt": "Installazione climatizzatori a Siracusa",
-      "service_url": "climatizzazione.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Intervento su unità esterna",
-      "category": "Climatizzazione",
-      "image": "assets/a3fdcb_b501fd5945264e47bb1cbd95f08e0ec0.jpg",
-      "alt": "Intervento su unità esterna di climatizzazione a Siracusa",
       "service_url": "climatizzazione.html",
       "active": true,
       "featured_home": true
@@ -118,73 +37,10 @@
       "featured_home": true
     },
     {
-      "title": "Installazione scaldabagno Ariston Velis",
-      "category": "Caldaie",
-      "image": "assets/scaldabagno-ariston-velis-real-1.jpg",
-      "alt": "Scaldabagno elettrico Ariston Velis installato a Siracusa",
-      "service_url": "caldaie.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Riparazione caldaia Riello a metano",
-      "category": "Caldaie",
-      "image": "assets/caldaia-riello-riparazione-real-1.jpg",
-      "alt": "Riparazione caldaia Riello a metano durante intervento tecnico a Siracusa",
-      "service_url": "caldaie.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Caldaia Riello a metano",
-      "category": "Caldaie",
-      "image": "assets/caldaia-riello-real-1.jpg",
-      "alt": "Caldaia Riello a metano installata a Siracusa",
-      "service_url": "caldaie.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
       "title": "Caldaia installata Hermann Saunier Duval",
       "category": "Caldaie",
       "image": "assets/caldaia-real-1.jpg",
       "alt": "Caldaia Hermann Saunier Duval installata a Siracusa",
-      "service_url": "caldaie.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Caldaie e riscaldamento",
-      "category": "Caldaie",
-      "image": "assets/a3fdcb_d6efa4286f514605bcb9cc41581db449~mv2.jpg",
-      "alt": "Caldaia installazione e assistenza",
-      "service_url": "caldaie.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Collegamenti caldaia Hermann Saunier Duval",
-      "category": "Caldaie",
-      "image": "assets/caldaia-hermann-installazione-2.jpg",
-      "alt": "Collegamenti caldaia Hermann Saunier Duval a Siracusa",
-      "service_url": "caldaie.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Installazione caldaia Hermann Saunier Duval",
-      "category": "Caldaie",
-      "image": "assets/caldaia-hermann-installazione-1.jpg",
-      "alt": "Installazione caldaia Hermann Saunier Duval a Siracusa",
-      "service_url": "caldaie.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Installazione caldaia Hermann Saunier Duval",
-      "category": "Caldaie",
-      "image": "assets/caldaia-hermann-installazione-3.jpg",
-      "alt": "Installazione caldaia Hermann Saunier Duval a Siracusa",
       "service_url": "caldaie.html",
       "active": true,
       "featured_home": true
@@ -208,290 +64,11 @@
       "featured_home": true
     },
     {
-      "title": "Demolizione bagno e preparazione impianti",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-1.jpg",
-      "alt": "Demolizione bagno e rimozione pavimenti per rifacimento impianto a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Demolizione impianti esistenti",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-9.jpg",
-      "alt": "Demolizione impianti bagno e rimozione vecchi rivestimenti a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
       "title": "Finiture bagno con box doccia",
       "category": "Ristrutturazioni",
       "image": "assets/ristrutt-bagno-real-4.jpg",
       "alt": "Box doccia e mobile lavabo in bagno ristrutturato a Siracusa",
       "service_url": "ristrutturazioni.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Lavori in corso bagno",
-      "category": "Ristrutturazioni",
-      "image": "assets/ristrutt-bagno-real-3.jpg",
-      "alt": "Lavori in corso per ristrutturazione bagno con intonaco e predisposizioni a Siracusa",
-      "service_url": "ristrutturazioni.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Tracce e tubazioni idriche sulle pareti",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-1.jpg",
-      "alt": "Tracce aperte e nuove tubazioni idriche predisposte sulle pareti del bagno a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Collegamento scarichi e impianti bagno",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-10.jpg",
-      "alt": "Tecnico durante il collegamento delle nuove tubazioni di scarico e adduzione del bagno a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Nuove tubazioni acqua incassate",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-2.jpg",
-      "alt": "Nuove tubazioni acqua calda e fredda installate nelle tracce a parete del bagno a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Predisposizione impianti prima delle finiture",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-3.jpg",
-      "alt": "Predisposizione di tubazioni e impianti prima di intonaco e rivestimenti del bagno a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Installazione vasca angolare idromassaggio",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-4.jpg",
-      "alt": "Vasca angolare idromassaggio installata durante la ristrutturazione del bagno a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Montaggio box doccia scorrevole",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-5.jpg",
-      "alt": "Montaggio di box doccia scorrevole e sanitari in bagno ristrutturato a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Regolazione e verifica box doccia",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-6.jpg",
-      "alt": "Verifica finale e regolazione delle ante del box doccia in bagno ristrutturato a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Preparazione pavimento e posa piatto doccia",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-7.jpg",
-      "alt": "Preparazione del sottofondo con piatto doccia posizionato prima delle finiture a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Rifacimento tubazioni e scarichi a parete",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-8.jpg",
-      "alt": "Parete demolita con nuove tubazioni idriche e scarichi durante il rifacimento del bagno a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Nuovi scarichi a pavimento",
-      "category": "Ristrutturazioni",
-      "image": "assets/bagno-ristrutturazione-real-9.jpg",
-      "alt": "Nuove tubazioni di scarico a pavimento predisposte durante la ristrutturazione del bagno a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Muratura e impianti",
-      "category": "Ristrutturazioni",
-      "image": "assets/a3fdcb_09317f7fdbbe40558b276efc7d7784e0.jpg",
-      "alt": "Lavori di muratura e idraulica",
-      "service_url": "ristrutturazioni.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Nuove linee idriche e scarichi",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-4.jpg",
-      "alt": "Bagno in ristrutturazione con nuove tracce idrauliche e termoidrauliche a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Pittura e rifiniture",
-      "category": "Ristrutturazioni",
-      "image": "assets/a3fdcb_4d28f08b13c64d0787bad6afc00113f4.jpg",
-      "alt": "Lavori di pittura a Siracusa",
-      "service_url": "ristrutturazioni.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Posa piatto doccia",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-5.jpg",
-      "alt": "Posa piatto doccia durante intervento idraulico in bagno a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Posa rivestimenti e pavimento",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-8.jpg",
-      "alt": "Posa rivestimenti e pavimento bagno durante rifacimento impianto a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Predisposizione impianto bagno",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-3.jpg",
-      "alt": "Predisposizione impianto idraulico bagno con attacchi acqua e scarichi a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Preparazione pareti e impianti",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-7.jpg",
-      "alt": "Pareti e impianti bagno in preparazione durante lavori idraulici a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Preparazione sottofondo e quote",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-6.jpg",
-      "alt": "Preparazione sottofondo e quote per bagno durante lavori termoidraulici a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Prima del rifacimento completo",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-10.jpg",
-      "alt": "Bagno in demolizione prima del rifacimento idraulico completo a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Scarichi e collegamenti termoidraulici",
-      "category": "Ristrutturazioni",
-      "image": "assets/idrau-termo-real-2.jpg",
-      "alt": "Nuovo scarico bagno e collegamenti termoidraulici durante la ristrutturazione a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Rivestimento bagno in posa",
-      "category": "Ristrutturazioni",
-      "image": "assets/ristrutturazione-bagno-real-11.jpg",
-      "alt": "Rivestimento bagno in fase di posa lungo la parete a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Posa piastrelle bagno con livella",
-      "category": "Ristrutturazioni",
-      "image": "assets/ristrutturazione-bagno-real-12.jpg",
-      "alt": "Posa piastrelle bagno con controllo livello durante la ristrutturazione a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Rifacimento scarico bagno a pavimento",
-      "category": "Ristrutturazioni",
-      "image": "assets/ristrutturazione-bagno-real-13.jpg",
-      "alt": "Rifacimento scarico bagno a pavimento durante lavori di ristrutturazione a Siracusa",
-      "service_url": "ristrutturazioni.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Pitturazioni professionali e cartongesso",
-      "category": "Pitturazioni",
-      "image": "assets/home-pitturazioni-gianluca.png",
-      "alt": "Gianluca Latina durante un lavoro di stuccatura e finitura parete in cartongesso a Siracusa",
-      "service_url": "pitturazioni.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Montaggio avvolgibili in PVC effetto Douglas",
-      "category": "Avvolgibili",
-      "image": "assets/avvolgibile-real-4.jpg",
-      "alt": "Montaggio avvolgibili in PVC colore Douglas a Siracusa",
-      "service_url": "avvolgibili.html#lavori",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Avvolgibile esterno color legno",
-      "category": "Avvolgibili",
-      "image": "assets/avvolgibile-real-2.jpg",
-      "alt": "Nuovo avvolgibile esterno color legno realizzato a Siracusa",
-      "service_url": "avvolgibili.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Avvolgibili e finiture",
-      "category": "Avvolgibili",
-      "image": "assets/a3fdcb_e5adca7c8c614bf8a1370474d450526c.jpg",
-      "alt": "Campionario di avvolgibili",
-      "service_url": "avvolgibili.html",
-      "active": true,
-      "featured_home": true
-    },
-    {
-      "title": "Dettaglio finiture avvolgibili",
-      "category": "Avvolgibili",
-      "image": "assets/avvolgibili-finiture-detail.jpg",
-      "alt": "Dettaglio colori e finiture per avvolgibili",
-      "service_url": "avvolgibili.html",
       "active": true,
       "featured_home": true
     },
@@ -505,13 +82,202 @@
       "featured_home": true
     },
     {
+      "title": "Avvolgibile esterno color legno",
+      "category": "Avvolgibili",
+      "image": "assets/avvolgibile-real-2.jpg",
+      "alt": "Nuovo avvolgibile esterno color legno realizzato a Siracusa",
+      "service_url": "avvolgibili.html",
+      "active": true,
+      "featured_home": true
+    },
+    {
+      "title": "Box doccia e installazioni",
+      "category": "Idraulica",
+      "image": "assets/a3fdcb_4183c923dcde4e57b34d256b1c3c50fd.jpg",
+      "alt": "Montaggio box doccia a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Idraulica e impianti",
+      "category": "Idraulica",
+      "image": "assets/a3fdcb_1e8d561c4eb74bf2aa9997832afb0de8.jpg",
+      "alt": "Lavori idraulici a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Muratura e impianti",
+      "category": "Ristrutturazioni",
+      "image": "assets/a3fdcb_09317f7fdbbe40558b276efc7d7784e0.jpg",
+      "alt": "Lavori di muratura e idraulica",
+      "service_url": "ristrutturazioni.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Pittura e rifiniture",
+      "category": "Ristrutturazioni",
+      "image": "assets/a3fdcb_4d28f08b13c64d0787bad6afc00113f4.jpg",
+      "alt": "Lavori di pittura a Siracusa",
+      "service_url": "ristrutturazioni.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Climatizzazione",
+      "category": "Climatizzazione",
+      "image": "assets/a3fdcb_e4826118852e467d8ff0fdcdcd351949.jpg",
+      "alt": "Installazione climatizzatori a Siracusa",
+      "service_url": "climatizzazione.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Caldaie e riscaldamento",
+      "category": "Caldaie",
+      "image": "assets/a3fdcb_d6efa4286f514605bcb9cc41581db449~mv2.jpg",
+      "alt": "Caldaia installazione e assistenza",
+      "service_url": "caldaie.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Intervento su unità esterna",
+      "category": "Climatizzazione",
+      "image": "assets/a3fdcb_b501fd5945264e47bb1cbd95f08e0ec0.jpg",
+      "alt": "Intervento su unità esterna di climatizzazione a Siracusa",
+      "service_url": "climatizzazione.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Avvolgibili e finiture",
+      "category": "Avvolgibili",
+      "image": "assets/a3fdcb_e5adca7c8c614bf8a1370474d450526c.jpg",
+      "alt": "Campionario di avvolgibili",
+      "service_url": "avvolgibili.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Dettaglio finiture avvolgibili",
+      "category": "Avvolgibili",
+      "image": "assets/avvolgibili-finiture-detail.jpg",
+      "alt": "Dettaglio colori e finiture per avvolgibili",
+      "service_url": "avvolgibili.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
       "title": "Sostituzione avvolgibile bianco",
       "category": "Avvolgibili",
       "image": "assets/avvolgibile-real-3.jpg",
       "alt": "Sostituzione avvolgibile bianco con cassonetto aperto a Siracusa",
       "service_url": "avvolgibili.html",
       "active": true,
-      "featured_home": true
+      "featured_home": false
+    },
+    {
+      "title": "Lavori in corso bagno",
+      "category": "Ristrutturazioni",
+      "image": "assets/ristrutt-bagno-real-3.jpg",
+      "alt": "Lavori in corso per ristrutturazione bagno con intonaco e predisposizioni a Siracusa",
+      "service_url": "ristrutturazioni.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Demolizione bagno e preparazione impianti",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-1.jpg",
+      "alt": "Demolizione bagno e rimozione pavimenti per rifacimento impianto a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Predisposizione impianto bagno",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-3.jpg",
+      "alt": "Predisposizione impianto idraulico bagno con attacchi acqua e scarichi a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Nuove linee idriche e scarichi",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-4.jpg",
+      "alt": "Bagno in ristrutturazione con nuove tracce idrauliche e termoidrauliche a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Preparazione sottofondo e quote",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-6.jpg",
+      "alt": "Preparazione sottofondo e quote per bagno durante lavori termoidraulici a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Preparazione pareti e impianti",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-7.jpg",
+      "alt": "Pareti e impianti bagno in preparazione durante lavori idraulici a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Posa rivestimenti e pavimento",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-8.jpg",
+      "alt": "Posa rivestimenti e pavimento bagno durante rifacimento impianto a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Demolizione impianti esistenti",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-9.jpg",
+      "alt": "Demolizione impianti bagno e rimozione vecchi rivestimenti a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Prima del rifacimento completo",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-10.jpg",
+      "alt": "Bagno in demolizione prima del rifacimento idraulico completo a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Installazione gruppo press control e serbatoi",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-11.jpg",
+      "alt": "Gruppo press control e collegamenti tra serbatoi installati a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
+    },
+    {
+      "title": "Montaggio serbatoi e componenti impianto",
+      "category": "Idraulica",
+      "image": "assets/idrau-termo-real-12.jpg",
+      "alt": "Gianluca Latina durante il montaggio di serbatoi e componenti idraulici a Siracusa",
+      "service_url": "idraulica.html",
+      "active": true,
+      "featured_home": false
     }
   ]
 }
